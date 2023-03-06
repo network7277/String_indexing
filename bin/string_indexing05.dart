@@ -8,5 +8,16 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  String answer;
+  if ( s.length % 2 == 0 ){
+    return answer = s[s.length ~/ 2 - 1] + s[s.length ~/ 2];
+  }
+  else{
+    return answer = s[s.length ~/ 2];
+  }
+
+  return answer;
+}
+void main(){
+  print(func('12345'));
 }
