@@ -7,5 +7,14 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  String answer = '';
+  int i = 5;
+  while ( i >= 0 ){
+    i --;
+    return answer = s[i - 1] + s[i - 2] + s[i - 3] + s[i - 4];
+  }
+  return answer;
+}
+void main(){
+  print(func('good'));
 }
