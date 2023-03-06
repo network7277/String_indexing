@@ -7,7 +7,8 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return s[0];
+  String answer = s[0];
+  return answer;
 
 }
 void main(){
