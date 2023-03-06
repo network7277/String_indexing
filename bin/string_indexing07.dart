@@ -8,5 +8,16 @@ String func(String s, int n) {
         str: answer
     """;
   //your code here
-  return '';
+  String answer;
+  if ( s.length > n ){
+    return answer = s[s.length - 1];
+  }
+  else{
+    return answer = s;
+  }
+
+  return answer;
+}
+void main(){
+  print(func('good', 3));
 }
