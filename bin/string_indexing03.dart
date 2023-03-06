@@ -7,5 +7,10 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  int a = s.length;
+  String answer = s[a - 1];
+  return answer;
+}
+void main(){
+  print(func('number'));
 }
