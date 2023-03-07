@@ -10,10 +10,10 @@ String func(String s) {
   //your code here
   String answer;
   if ( s.length % 2 == 0 ){
-    return answer = s[s.length ~/ 2 - 1] + s[s.length ~/ 2];
+     answer = s[s.length ~/ 2 - 1] + s[s.length ~/ 2];
   }
   else{
-    return answer = s[s.length ~/ 2];
+     answer = s[s.length ~/ 2];
   }
 
   return answer;
