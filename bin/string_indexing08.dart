@@ -8,5 +8,18 @@ int func(String s) {
         int: answer
     """;
   //your code here
-  return -1;
+  int answer;
+  int i = 0;
+  while ( i <= s.length - 1 ){
+    if ( s[i] == '*' ){
+      return answer = i;
+    }
+    i++;
+    }
+     return answer = 0;
+  }
+ 
+
+void main(){
+  print(func('45*4'));
 }
